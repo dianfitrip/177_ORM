@@ -12,6 +12,11 @@ module.exports  = (sequelize, DataTypes) => {
         penulis: {
             type: DataTypes.TEXT,
             allowNull: false
+        },
+
+        deskripsi: {
+            type: DataTypes.TEXT,
+            allowNull: false
         }
     }, {
         tableName: 'komik',
